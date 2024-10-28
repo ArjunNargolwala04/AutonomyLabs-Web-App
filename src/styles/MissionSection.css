@@ -1,0 +1,66 @@
+/* src/components/MissionSection.css */
+
+.mission-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 15vw; /* Adds padding for left and right sides */
+    color: #fff;
+    background-color: #111;
+    width: 100vw;
+    height: 35vw;
+    box-sizing: border-box;
+  }
+  
+  .mission-left {
+    flex: 1;
+    max-width: 30%;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .mission-left h2 {
+    font-size: 1.2rem;
+    color: #ccc;
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+  
+  .mission-right {
+    flex: 2;
+    max-width: 70%;
+    padding-left: 20px;
+  }
+  
+  .mission-right h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 15px;
+  }
+  
+  .mission-right p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .mission-link {
+    font-size: 1.1rem;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s;
+  }
+  
+  .mission-link:hover {
+    color: #ddd;
+  }
+  
+  .arrow-icon {
+    margin-left: 8px;
+  }
+  

@@ -1,0 +1,55 @@
+/* src/components/WorkSection.css */
+
+.work-section-container {
+    padding: 100px 15vw;
+    background-color: #111;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .work-section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .work-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .work-card {
+    background-color: #222;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .work-card-category {
+    font-size: 0.875rem;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .work-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .work-card-description {
+    font-size: 1rem;
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+  
+  .work-card-date {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  

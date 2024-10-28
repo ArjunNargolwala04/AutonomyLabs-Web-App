@@ -1,0 +1,49 @@
+/* src/components/InfoTabsSection.css */
+
+.info-tabs-section {
+  background-color: #222222;
+  color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 1050px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.tabs {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: #ccc;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.tab-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-left {
+  max-width: 60%;
+}
+
+.content-right .icon {
+  font-size: 5rem;
+  color: #ccc;
+}

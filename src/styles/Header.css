@@ -1,0 +1,78 @@
+/* src/styles/Header.css */
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 25px 40px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px; /* Adjust size as needed */
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    height: 100%;
+    width: auto;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: #fff; /* Match your site color */
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex: 1;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ccc;
+  }
+  
+  .schedule-meeting button {
+    background-color: #1f1e1e;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.4em;
+    font: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    shape-rendering: geometricPrecision;
+  }
+  
+  .schedule-meeting button:hover {
+    background-color: #555;
+  }
+  

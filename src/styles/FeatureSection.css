@@ -1,0 +1,59 @@
+/* src/components/FeatureSection.css */
+
+.feature-section {
+    padding: 60px 20px;
+    background-color: #121212; /* Dark background to match the theme */
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .feature-heading {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .feature-subheading {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #cccccc; /* Light grey for subheading */
+  }
+  
+  .feature-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .feature-item {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  .feature-icon svg {
+    color: #00aaff; /* Accent color for the icons */
+  }
+  
+  .feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+    color: #aaaaaa; /* Light grey for description text */
+    line-height: 1.5;
+  }
+  
+  
