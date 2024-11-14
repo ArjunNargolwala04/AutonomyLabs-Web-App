@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/AutonomyLabs-Web-App/static/css/main.7579a0d1.chunk.css",
-    "main.js": "/AutonomyLabs-Web-App/static/js/main.7b661715.chunk.js",
-    "main.js.map": "/AutonomyLabs-Web-App/static/js/main.7b661715.chunk.js.map",
-    "runtime-main.js": "/AutonomyLabs-Web-App/static/js/runtime-main.110d5c54.js",
-    "runtime-main.js.map": "/AutonomyLabs-Web-App/static/js/runtime-main.110d5c54.js.map",
-    "static/js/2.4cc0bb65.chunk.js": "/AutonomyLabs-Web-App/static/js/2.4cc0bb65.chunk.js",
-    "static/js/2.4cc0bb65.chunk.js.map": "/AutonomyLabs-Web-App/static/js/2.4cc0bb65.chunk.js.map",
-    "index.html": "/AutonomyLabs-Web-App/index.html",
-    "precache-manifest.967991edad63659b800287815f25fe39.js": "/AutonomyLabs-Web-App/precache-manifest.967991edad63659b800287815f25fe39.js",
-    "service-worker.js": "/AutonomyLabs-Web-App/service-worker.js",
-    "static/css/main.7579a0d1.chunk.css.map": "/AutonomyLabs-Web-App/static/css/main.7579a0d1.chunk.css.map",
-    "static/js/2.4cc0bb65.chunk.js.LICENSE.txt": "/AutonomyLabs-Web-App/static/js/2.4cc0bb65.chunk.js.LICENSE.txt",
-    "static/media/deepmind.jpg": "/AutonomyLabs-Web-App/static/media/deepmind.fc6592b4.jpg",
-    "static/media/deepmind3.png": "/AutonomyLabs-Web-App/static/media/deepmind3.6766b010.png",
-    "static/media/deepmind5.jpg": "/AutonomyLabs-Web-App/static/media/deepmind5.b23bf0c5.jpg",
-    "static/media/logo.png": "/AutonomyLabs-Web-App/static/media/logo.0112aead.png"
+    "main.css": "/static/css/main.7579a0d1.chunk.css",
+    "main.js": "/static/js/main.28f8b9ee.chunk.js",
+    "main.js.map": "/static/js/main.28f8b9ee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6cd1d63a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6cd1d63a.js.map",
+    "static/js/2.6364f046.chunk.js": "/static/js/2.6364f046.chunk.js",
+    "static/js/2.6364f046.chunk.js.map": "/static/js/2.6364f046.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.be0e985136b415a1494c04d0bd4c7dba.js": "/precache-manifest.be0e985136b415a1494c04d0bd4c7dba.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7579a0d1.chunk.css.map": "/static/css/main.7579a0d1.chunk.css.map",
+    "static/js/2.6364f046.chunk.js.LICENSE.txt": "/static/js/2.6364f046.chunk.js.LICENSE.txt",
+    "static/media/deepmind.jpg": "/static/media/deepmind.fc6592b4.jpg",
+    "static/media/deepmind3.png": "/static/media/deepmind3.6766b010.png",
+    "static/media/deepmind5.jpg": "/static/media/deepmind5.b23bf0c5.jpg",
+    "static/media/logo.png": "/static/media/logo.0112aead.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.110d5c54.js",
-    "static/js/2.4cc0bb65.chunk.js",
+    "static/js/runtime-main.6cd1d63a.js",
+    "static/js/2.6364f046.chunk.js",
     "static/css/main.7579a0d1.chunk.css",
-    "static/js/main.7b661715.chunk.js"
+    "static/js/main.28f8b9ee.chunk.js"
   ]
 }
