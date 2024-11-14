@@ -5,18 +5,15 @@ import { FaArrowRight } from 'react-icons/fa';
 
 function MissionSection() {
   return (
-    <div className="mission-section">
-      <div className="mission-left">
-        <h2>Our Mission</h2>
-      </div>
+    <div className="main-mission-section">
       <div className="mission-right">
-        <h3>Transforming industry capabilities with advanced technology.</h3>
+        <h3>Automate Everything. Empower Everyone.</h3>
         <p>
-          In a rapidly evolving landscape, staying ahead requires innovation and adaptability. 
-          Our mission is to bring state-of-the-art AI technology to automate and enhance core 
-          capabilities in various sectors, from finance to manufacturing.
+          Our mission is to build autonomous systems that enable organizations to scale, 
+          adapt, and innovate at unprecedented speeds. 
+          We are transforming core business operations through advanced multi-agent AI that learns, optimizes, and evolves in real time. From finance and logistics to manufacturing and beyond, our goal is to turn ambitious visions into reality by empowering businesses to automate workflows, reduce complexity, and unlock new possibilities across every sector.
         </p>
-        <a href="/mission" className="mission-link">
+        <a href="/company" className="mission-link">
           Learn more about our mission <FaArrowRight className="arrow-icon" />
         </a>
       </div>

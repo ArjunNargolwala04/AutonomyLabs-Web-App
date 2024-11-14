@@ -1,0 +1,109 @@
+.company-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* Hero Section */
+.company-hero-section {
+    position: relative;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.company-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.company-hero-overlay h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+
+.company-hero-overlay p {
+    font-size: 1.2em;
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+/* About Section */
+.company-about-section {
+    max-width: 1000px;
+    background-color: #111;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px 100px;
+    text-align: left; /* Left-align the text */
+}
+
+.company-about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.company-about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+/* Careers Section */
+.company-careers-section {
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 100px 100px;
+    text-align: left;
+    background-color: #111;
+}
+
+.company-careers-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.company-careers-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.calendly-link {
+    font-size: 1.1em;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #333333;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.calendly-link:hover {
+    background-color: #555555;
+}

@@ -7,12 +7,12 @@
     position: relative;
     width: fit-content;
     padding: 40px;
-    background-color: #111;
+    background-color: #19191b;
   }
   
   .dot {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-color: #ffffff;
     border-radius: 50%;
     position: relative;

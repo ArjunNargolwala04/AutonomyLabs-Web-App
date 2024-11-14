@@ -1,8 +1,8 @@
 /* src/components/WorkSection.css */
 
 .work-section-container {
-    padding: 100px 15vw;
-    background-color: #111;
+    padding: 5vh 3vh;
+    background-color: #0c0c0c;
     color: #fff;
     text-align: left;
   }
@@ -10,20 +10,26 @@
   .work-section-title {
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 30px;
-    color: #fff;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: 15vh;
+    text-align: left;
+    color: #d5d5d5;
   }
   
   .work-cards-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-bottom: 10vh;
   }
   
   .work-card {
     background-color: #222;
     padding: 20px;
-    width: 350px;
+    width: 40vh;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }

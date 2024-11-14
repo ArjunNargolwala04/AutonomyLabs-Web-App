@@ -12,20 +12,28 @@ function Header() {
           <div className="logo">
             <img src={logo} alt="Logo" />
           </div>
-          <Link to="/" className="title">Autonomy Labs</Link>
+          <Link to="/" className="title">AUTONOMY LABS</Link>
         </div>
         <nav className="nav-links">
-          <Link to="/research">Research</Link>
-          <Link to="/products">Products</Link>
-          <Link to="/safety">Safety</Link>
-          <Link to="/company">Company</Link>
-        </nav>
-        <div className="schedule-meeting">
-          <button>Schedule a Meeting</button>
+        <Link to="/products">Products</Link>
+        <Link to="/research">Research</Link>
+        <Link to="/company">Company</Link>
+        {/* Contact Button */}
+        <a
+          href="https://calendly.com/arjunvnargolwala/autonomy-labs-meeting"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-button"
+        >
+          Contact
+        </a>
+      </nav>
         </div>
-      </div>
     </header>
   );
+
+  
 }
 
 export default Header;
+

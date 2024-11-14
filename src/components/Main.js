@@ -6,11 +6,13 @@ import '../styles/Main.css';
 const Main = () => {
   return (
     <div className="main-panel">
-      <div className="main-content">
-        <h1>Self-Assembling Intelligence</h1>
-        <p>Multi-Agent AI Systems</p>
+      <div className="main-text">
+        <p className="main-title">Self-Assembling Intelligence</p>
+        <p className="main-subtitle"> _Build the future.</p>
       </div>
-      <NetworkGraph />
+      <div className="main-animation">
+        <NetworkGraph />
+      </div>
     </div>
   );
 };

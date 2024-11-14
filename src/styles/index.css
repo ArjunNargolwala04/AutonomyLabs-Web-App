@@ -4,13 +4,48 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  body {
-    font-family: 'Roboto Mono', sans-serif; /* or 'Orbitron' if preferred */
-    background-color: #111;
-    color: #eee;
-    line-height: 1.6;
-  }
+
+  /* Define font variables */
+:root {
+  --font-gt-pantheon: "gtPantheon", "gtPantheon Fallback";
+  --font-abc-oracle: "abcOracle", "abcOracle Fallback", Arial, Helvetica, sans-serif;
+  --font-geist-mono: "geistMono", "geistMono Fallback";
+  --foreground: #000; /* Text color */
+  --background: #fff; /* Background color */
+}
+
+/* Apply base styles */
+body {
+  font-family: var(--font-abc-oracle);
+  color: var(--foreground);
+  background: var(--background);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+}
+
+/* Custom classes */
+.font-book {
+  font-weight: 350;
+}
+
+.text-hero {
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+/* Heading tags inherit font styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-abc-oracle);
+  font-weight: bold;
+  font-size: inherit;
+  line-height: 1.2;
+}
+
   
   a {
     text-decoration: none;
@@ -21,3 +56,58 @@
     text-align: center;
   }
   
+  :root {
+    --background-color: #19191b; /* New dark background color */
+    --foreground-color: #e0e0e0; /* Light color for text */
+    --accent-color: #ffffff; /* Accent color for headings */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    font-family: var(--font-abc-oracle), Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    color: var(--foreground-color);
+}
+
+.header-logo {
+    font-family: var(--font-gt-pantheon);
+    font-size: 1.5em;
+    color: var(--accent-color);
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: var(--foreground-color);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.contact-button {
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: var(--accent-color);
+    font-size: 0.9em;
+    cursor: pointer;
+    text-transform: uppercase;
+}

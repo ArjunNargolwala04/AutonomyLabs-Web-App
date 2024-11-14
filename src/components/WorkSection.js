@@ -6,20 +6,20 @@ import '../styles/WorkSection.css'; // Corrected path
 const workItems = [
   {
     category: 'Enterprise',
-    title: 'Claude for Enterprise',
-    description: 'An enterprise-grade AI assistant designed for business needs.',
+    title: 'Autonmous Workflows',
+    description: 'Transform your operations with our enterprise AI assistant that autonomously manages cross-functional workflows, enabling seamless scaling through deep integrations and intelligent automation.',
     date: 'Sep 4, 2024',
   },
   {
-    category: 'Startup',
-    title: 'Constitutional AI: Harmlessness from AI Feedback',
-    description: 'Exploring safe and aligned AI through feedback and constitutional principles.',
+    category: 'Startups',
+    title: 'Launch with AI',
+    description: 'Accelerate your growth with our responsible AI deployment framework, combining advanced capabilities with ethical principles to help you scale faster while staying true to your values.',
     date: 'Dec 15, 2022',
   },
   {
     category: 'Research',
-    title: 'Core Views on AI Safety: When, Why, What, and How',
-    description: 'Guidelines and principles for safe and ethical AI development.',
+    title: 'Multi-Agent Systems',
+    description: 'Leading the development of safe and scalable multi-agent AI systems through pioneering research that establishes new standards for collaborative, ethical, and human-aligned artificial intelligence.',
     date: 'Mar 8, 2023',
   },
 ];
@@ -28,6 +28,7 @@ const WorkSection = () => {
   return (
     <div className="work-section-container">
       <h2 className="work-section-title">Our Work</h2>
+
       <div className="work-cards-container">
         {workItems.map((item, index) => (
           <div key={index} className="work-card">

@@ -1,0 +1,48 @@
+/* src/styles/CapabilitiesSection.css */
+
+.capabilities-section {
+    padding: 100px;
+    background-color: #19191B; /* Match the website's dark theme */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .capabilities-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #fff; /* Match the website style */
+  }
+  
+  .capabilities-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .capability-card {
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .capability-icon {
+    font-size: 2.5rem;
+    color: #888; /* Accent color for the icons */
+    margin-bottom: 10px;
+  }
+  
+  .capability-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .capability-description {
+    font-size: 0.9rem;
+    color: #d3d3d3;
+  }
+  
